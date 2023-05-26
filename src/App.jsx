@@ -10,14 +10,7 @@ export function App(){
       <div className={styles.wrapper}>
         <Sidebar/> 
         <main>
-          <Post
-            author="Paulo Ricardo"
-            content="Lorem lorem lorem"
-          />
-          <Post
-            author="Paulo Ricardo"
-            content="Lorem lorem lorem"
-          />
+          
         </main>
       </div>
     </div>
