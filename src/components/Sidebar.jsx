@@ -9,6 +9,12 @@ export function Sidebar() {
                 <span>Web Developer</span>
             </div>
 
+            <div className={styles.profile}>
+                <img className={styles.avatar} src="https://github.com/PauloRRRRR.png"/>
+                <strong>Paulo Ricardo</strong>
+                <span>Web Developer</span>
+            </div>
+
             <footer>
                 <a href='#'>
                     Editar seu perfil
