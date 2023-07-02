@@ -10,6 +10,8 @@
 
     --green-300: #05c088;
     --green-500:#00975f;
+
+    --red-500: #F75A68;
 }
 
 :focus {
@@ -33,4 +35,13 @@ body, input, textarea, button {
     font-family: 'Roboto' sans-serif;
     font-weight: 400;
     font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
 }
